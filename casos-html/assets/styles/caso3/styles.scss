@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgb(241, 241, 181);
+}
+
+main {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    .title {
+      color: indigo;
+      font-size: 2rem;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      border: solid 3px red;
+      background-color: rgb(218, 218, 218);
+      margin: 10px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 60%;
+      margin: auto;
+    }
+  }
+  .paragraph-container{
+    font-size: 0.9rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   margin: 10px;
+    span{
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+  }
+}
